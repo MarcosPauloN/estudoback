@@ -1,0 +1,31 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+		//Declaração de variaveis
+		real valor
+		inteiro porcentagem
+		real resultado
+		real resultado1
+
+		//Entrada e armazenamento de dados
+		escreva("Informe o valor: ")
+		leia(valor)
+		escreva("informe a porcentagem: ")
+		leia(porcentagem)
+
+		//Aplicação de formula	
+		resultado = ((valor * porcentagem)/100)+valor
+		resultado1 = valor-(valor*porcentagem/100)
+		//Retorno de resultado
+		escreva(valor+" com "+porcentagem+"% de desconto é: "+resultado+"\n")
+		escreva(valor+" com "+porcentagem+" % juros é: "+resultado1)
+		
+		
+		
+
+		
+	}
+}
